@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  background-color: rgb(245, 163, 12) !important;
+}
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 700;
+  font-size: 80px !important;
+  color: white !important;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800 !important;
+  color: white !important;
+  -webkit-text-stroke-width: 1.3px;
+  -webkit-text-stroke-color: black;
+  font-size: 25px !important;
+}
+
+a.blink {
+  text-decoration: none !important;
+  font-size: 20px;
+  color: rgb(190, 3, 3);
+  &:hover {
+    color: rgb(27, 27, 190);
+  }
+}
